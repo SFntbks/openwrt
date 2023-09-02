@@ -2,10 +2,7 @@ name: NanoPi R2S WAN\AM OpenWrt
 on:
   repository_dispatch:
   workflow_dispatch:
-  schedule:
-#     - cron: 0 23 * * *
-  # watch:
-  #   types: started
+
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
